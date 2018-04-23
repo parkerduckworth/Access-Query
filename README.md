@@ -46,12 +46,9 @@ Comparison(MAKE[145], YEAR[65], ['HP', 'Boost']).search()
 ```
 etc.
 
-*Make some queries:*
-Import requred classes.
-`>>> from query import *`
-
-Queries can be made with this syntax:
+Queries can be made like this:
 ```
+>>> from query import *
 >>> query = DataRange(YEAR[145])
 >>> query.search()
 >>> [MinHP(HP=111.0, RPM=2040.0), MaxHP(HP=514.0, RPM=6650.0), 
