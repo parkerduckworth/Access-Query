@@ -4,20 +4,20 @@ COBB Tuning's [Dyno Database](https://www.cobbtuning.com/dyno-database/).
 
 ## User Interface
 
-####`DataRange(<entry>)`:
+`DataRange(<entry>)`:
 >Retrieve min/max data for given entry.
 
-####`MinData(<entry>)`:
+`MinData(<entry>)`:
 >Retrieve only minimum data for given entry.
 
-####`MaxData(<entry>)`:
+`MaxData(<entry>)`:
 >Retrieve only maximum data for given entry.
 
-####`Comparison(<entry1>, <entry2>, ['HP', 'Torque', 'AFR', 'Boost'])`:
+`Comparison(<entry1>, <entry2>, ['HP', 'Torque', 'AFR', 'Boost'])`:
 >Retrieve compared data for two given entries. One, any, or all listed
 performance attributes may be included.
 
-####`.search()`:
+`.search()`:
 >Execute query.
 
 
@@ -46,7 +46,7 @@ Comparison(MAKE[145], YEAR[65], ['HP', 'Boost']).search()
 ```
 etc.
 
-####Make some queries:
+*Make some queries:*
 Import requred classes.
 `>>> from query import *`
 
