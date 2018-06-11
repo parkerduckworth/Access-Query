@@ -56,6 +56,6 @@ Queries can be made like this:
 	 MinAFR(AFR=11.2, RPM=5300.0), MaxAFR(AFR=14.5, RPM=2040.0), 
 	 MinBoost(Boost=3.7, RPM=2040.0), MaxBoost(Boost=17.0, RPM=3220.0)]
 
->>> Comparison(YEAR[145], MAKE[33], ['HP', 'Torque']),search()
+>>> Comparison(YEAR[145], MAKE[33], ['HP', 'Torque']).search()
 >>> ['HP: 2010 Nissan GT-R', 'Torque: 2010 Nissan GT-R']
 ```
