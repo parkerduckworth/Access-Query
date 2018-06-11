@@ -155,4 +155,5 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# Git-related
 .DS_Store

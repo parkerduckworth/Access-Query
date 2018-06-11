@@ -23,6 +23,8 @@ class EntryList:
 
     """
 
+    __slots__ = ['keys', 'key_list']
+
     def __init__(self):
         self.keys = valid_entries.keys()
         self.key_list = [key for key in self.keys]
