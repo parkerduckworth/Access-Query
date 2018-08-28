@@ -60,7 +60,7 @@ class ContentLoader:
         try:
 
             # Attempt an entry API key lookup
-            from dataset import valid_entries
+            from data.dataset import valid_entries
             index = valid_entries[entry]
         except KeyError:
 

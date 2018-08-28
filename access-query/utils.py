@@ -4,7 +4,7 @@
 
 """
 
-from dataset import valid_entries
+from data.dataset import valid_entries
 
 
 class EntryList:
